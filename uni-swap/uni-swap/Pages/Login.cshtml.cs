@@ -12,7 +12,7 @@ namespace uni_swap.Pages
     public class LoginModel : PageModel
     {
 
-        private readonly UserService _userService;
+        private readonly UserService userService;
         [BindProperty]
         public string Email { get; set; }
         [BindProperty]
@@ -20,7 +20,7 @@ namespace uni_swap.Pages
 
         public LoginModel(UserService userService)
         {
-            _userService = userService;
+            this.userService = userService;
         }
 
         public void OnGet()
@@ -31,7 +31,7 @@ namespace uni_swap.Pages
         {
 
             bool loggedIn = false;
-            if (_userService.ValidateUser(Email,Password))
+            if (userService.ValidateUser(Email,Password))
             {
                 loggedIn = true;
                 HttpContext.Session.SetInt32("Login", 1);
