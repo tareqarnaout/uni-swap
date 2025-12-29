@@ -1,12 +1,122 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\User\\Documents\\GitHub\\uni-swap\\uni-swap\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BA864975-FE89-421D-AA1A-754590890D6B}|uni-swap\\uni-swap.csproj|c:\\users\\user\\documents\\github\\uni-swap\\uni-swap\\uni-swap\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BA864975-FE89-421D-AA1A-754590890D6B}|uni-swap\\uni-swap.csproj|solutionrelative:uni-swap\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA864975-FE89-421D-AA1A-754590890D6B}|uni-swap\\uni-swap.csproj|c:\\users\\user\\documents\\github\\uni-swap\\uni-swap\\uni-swap\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BA864975-FE89-421D-AA1A-754590890D6B}|uni-swap\\uni-swap.csproj|solutionrelative:uni-swap\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA864975-FE89-421D-AA1A-754590890D6B}|uni-swap\\uni-swap.csproj|c:\\users\\user\\documents\\github\\uni-swap\\uni-swap\\uni-swap\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA864975-FE89-421D-AA1A-754590890D6B}|uni-swap\\uni-swap.csproj|solutionrelative:uni-swap\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA864975-FE89-421D-AA1A-754590890D6B}|uni-swap\\uni-swap.csproj|c:\\users\\user\\documents\\github\\uni-swap\\uni-swap\\uni-swap\\pages\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA864975-FE89-421D-AA1A-754590890D6B}|uni-swap\\uni-swap.csproj|solutionrelative:uni-swap\\pages\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA864975-FE89-421D-AA1A-754590890D6B}|uni-swap\\uni-swap.csproj|c:\\users\\user\\documents\\github\\uni-swap\\uni-swap\\uni-swap\\pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA864975-FE89-421D-AA1A-754590890D6B}|uni-swap\\uni-swap.csproj|solutionrelative:uni-swap\\pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA864975-FE89-421D-AA1A-754590890D6B}|uni-swap\\uni-swap.csproj|c:\\users\\user\\documents\\github\\uni-swap\\uni-swap\\uni-swap\\models\\registeruser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA864975-FE89-421D-AA1A-754590890D6B}|uni-swap\\uni-swap.csproj|solutionrelative:uni-swap\\models\\registeruser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\uni-swap\\uni-swap\\uni-swap\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "uni-swap\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\uni-swap\\uni-swap\\uni-swap\\Properties\\launchSettings.json",
+              "RelativeToolTip": "uni-swap\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-29T16:16:16.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\uni-swap\\uni-swap\\uni-swap\\Program.cs",
+              "RelativeDocumentMoniker": "uni-swap\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\uni-swap\\uni-swap\\uni-swap\\Program.cs",
+              "RelativeToolTip": "uni-swap\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T16:07:56.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\uni-swap\\uni-swap\\uni-swap\\appsettings.json",
+              "RelativeDocumentMoniker": "uni-swap\\appsettings.json",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\uni-swap\\uni-swap\\uni-swap\\appsettings.json",
+              "RelativeToolTip": "uni-swap\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-29T14:46:30.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\uni-swap\\uni-swap\\uni-swap\\Pages\\Login.cshtml",
+              "RelativeDocumentMoniker": "uni-swap\\Pages\\Login.cshtml",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\uni-swap\\uni-swap\\uni-swap\\Pages\\Login.cshtml",
+              "RelativeToolTip": "uni-swap\\Pages\\Login.cshtml",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAAAGgAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-29T14:23:54.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\uni-swap\\uni-swap\\uni-swap\\Pages\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "uni-swap\\Pages\\Login.cshtml.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\uni-swap\\uni-swap\\uni-swap\\Pages\\Login.cshtml.cs",
+              "RelativeToolTip": "uni-swap\\Pages\\Login.cshtml.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAcwEoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T14:23:55.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RegisterUser.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\uni-swap\\uni-swap\\uni-swap\\Models\\RegisterUser.cs",
+              "RelativeDocumentMoniker": "uni-swap\\Models\\RegisterUser.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\uni-swap\\uni-swap\\uni-swap\\Models\\RegisterUser.cs",
+              "RelativeToolTip": "uni-swap\\Models\\RegisterUser.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAzwC0AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T12:40:01.622Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
