@@ -102,19 +102,28 @@
         <h5 class="mb-4 fw-bold text-secondary">All Listings</h5>
 
         <div class="row row-cols-1 row-cols-md-3 g-4">
-
-            <div class="col">
-                <div class="card product-card h-100">
-                    <img src="https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="Textbook">
-                    <div class="card-body">
-                        <h5 class="card-title fs-6 fw-bold">Calculus 2nd Edition</h5>
-                        <p class="card-text price-tag mb-1">$45</p>
-                        <p class="seller-info mb-0">John Doe</p>
+            @foreach (var product in Model.products)
+            {
+                <div class="col">
+                    <div class="card product-card h-100">
+                    <img src=@product.ImageUrl class="card-img-top" alt="Textbook">
+                        <div class="card-body">
+                            
+                            <h5 class="card-title fs-6 fw-bold">@product.Title</h5>
+                            <p class="card-text price-tag mb-1">@product.Price</p>
+                            <p class="product-description">@product.Description</p>
+                            <p class="seller-info mb-0">@product.sellerId</p>
+                            <br>
+                            <form method="post" asp-page-handler="AddProduct">
+                                <input type="hidden" name="productId" value="@product.Id">
+                                <button type="submit" class="btn btn-primary">Add to Cart</button>
+                            </form>
+                        </div>
                     </div>
                 </div>
-            </div>
+            }
 
-            <div class="col">
+            @* <div class="col">
                 <div class="card product-card h-100">
                     <img src="https://images.unsplash.com/photo-1517080315817-48651c618b13?auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="Coffee Maker">
                     <div class="card-body">
@@ -167,7 +176,7 @@
                         <p class="seller-info mb-0">Alex Brown</p>
                     </div>
                 </div>
-            </div>
+            </div> *@
 
         </div>
     </div>

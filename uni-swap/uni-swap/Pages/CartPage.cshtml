@@ -1,0 +1,151 @@
+﻿@page
+@model uni_swap.Pages.CartPageModel
+@{
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UniSwap - Shopping Cart</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <style>
+        body {
+            background-color: #f8f9fa; /* Matches your other pages */
+        }
+
+        /* Navbar (Consistent with Login/Browse) */
+        .navbar-nav .nav-link {
+            padding-right: 1.5rem;
+            padding-left: 1.5rem;
+            color: #555;
+        }
+
+        /* Cart Item Styling */
+        .cart-item-card {
+            border: none;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.02);
+            transition: all 0.2s;
+        }
+        .cart-item-card:hover {
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+        }
+
+        .cart-img-container {
+            width: 100px;
+            height: 100px;
+            overflow: hidden;
+            border-radius: 8px;
+            background-color: #eee;
+        }
+        .cart-img-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Ensures images are square and don't stretch */
+        }
+
+        /* Summary Box Styling */
+        .summary-card {
+            border: none;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+            background-color: white;
+            position: sticky;
+            top: 20px; /* Keeps summary visible when scrolling */
+        }
+    </style>
+</head>
+<body>
+
+    
+
+    <div class="container pb-5">
+        <h3 class="fw-bold mb-4">Shopping Cart <span class="text-muted fs-5 fw-normal"></span></h3>
+
+        <div class="row">
+            
+            <div class="col-lg-8">
+                @foreach(var product in Model.products)
+                {
+                    <div class="card cart-item-card mb-3 p-3">
+                        <div class="d-flex align-items-center">
+                            <div class="cart-img-container flex-shrink-0">
+                                <img src= @product.ImageUrl alt="Book">
+                            </div>
+
+                            <div class="ms-4 flex-grow-1">
+                                <div class="d-flex justify-content-between">
+                                    <h5 class="fw-bold mb-1">@product.Title</h5>
+                                    <h5 class="fw-bold text-primary">@product.Price</h5>
+                                </div>
+                                <p class="text-muted small mb-2">@product.sellerId</p>
+
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span class="badge bg-light text-secondary border">Condition: Good</span>
+                                    <form method="post"  style="display: inline;">
+                                        <input type="hidden" name="productId" value="@product.Id">
+                                        <button type="submit" class="btn btn-link text-danger text-decoration-none p-0 small">
+                                            <i class="bi bi-trash me-1"></i>Remove
+                                        </button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+                
+
+                
+
+                <div class="mt-4">
+                    <a href="/HomePage" class="text-decoration-none">
+                        <i class="bi bi-arrow-left me-2"></i>Continue Shopping
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="col-lg-4">
+                <div class="card summary-card p-4">
+                    <h5 class="fw-bold mb-4">Order Summary</h5>
+                    
+                    <div class="d-flex justify-content-between mb-2 text-muted">
+                        <span>Subtotal</span>
+                        <span>$60.00</span>
+                    </div>
+                    <div class="d-flex justify-content-between mb-3 text-muted">
+                        <span>Platform Fee (5%)</span>
+                        <span>$3.00</span>
+                    </div>
+                    
+                    <hr>
+
+                    <div class="d-flex justify-content-between mb-4">
+                        <span class="fw-bold fs-5">Total</span>
+                        <span class="fw-bold fs-5 text-primary">$63.00</span>
+                    </div>
+
+                    <button class="btn btn-primary w-100 btn-lg mb-3 shadow-sm">
+                        Proceed to Checkout
+                    </button>
+                    
+                    <div class="text-center">
+                        <small class="text-muted d-block mb-1">We accept</small>
+                        <i class="bi bi-credit-card-2-front fs-4 text-secondary mx-1"></i>
+                        <i class="bi bi-paypal fs-4 text-secondary mx-1"></i>
+                        <i class="bi bi-cash-coin fs-4 text-secondary mx-1"></i>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

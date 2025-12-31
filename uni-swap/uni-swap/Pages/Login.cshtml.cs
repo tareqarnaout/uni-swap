@@ -36,14 +36,14 @@ namespace uni_swap.Pages
                 loggedIn = true;
                 HttpContext.Session.SetInt32("Login", 1);
                 HttpContext.Session.SetString("Email", Email);
-                Response.Redirect("./Home");
+                Response.Redirect("./HomePage");
             }
             else
             {
                 loggedIn = false;
                 HttpContext.Session.SetInt32("Login", 0);
                 HttpContext.Session.SetString("Email", "");
-                Response.Redirect("./User");
+                Response.Redirect("./Login");
             }
 
         }
