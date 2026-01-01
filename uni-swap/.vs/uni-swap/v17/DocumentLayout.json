@@ -50,8 +50,7 @@
               "RelativeToolTip": "uni-swap\\Pages\\CartPage.cshtml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-31T14:52:15.566Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-31T14:52:15.566Z"
             },
             {
               "$type": "Document",
@@ -61,7 +60,7 @@
               "RelativeDocumentMoniker": "uni-swap\\Pages\\CartPage.cshtml",
               "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\uni-swap\\uni-swap\\uni-swap\\Pages\\CartPage.cshtml",
               "RelativeToolTip": "uni-swap\\Pages\\CartPage.cshtml",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAawEMAAABXAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAiwEMAAABXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-12-31T14:44:27.636Z",
               "EditorCaption": ""
@@ -76,8 +75,7 @@
               "RelativeToolTip": "uni-swap\\Pages\\Login.cshtml.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-31T13:46:03.641Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-31T13:46:03.641Z"
             },
             {
               "$type": "Document",
@@ -89,8 +87,7 @@
               "RelativeToolTip": "uni-swap\\Pages\\HomePage.cshtml.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAgwCEAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-30T18:31:07.089Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-30T18:31:07.089Z"
             },
             {
               "$type": "Document",
@@ -102,8 +99,7 @@
               "RelativeToolTip": "uni-swap\\Pages\\HomePage.cshtml",
               "ViewState": "AgIAAGoAAAAAAAAAAADwv3oAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-30T18:31:05.134Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-30T18:31:05.134Z"
             },
             {
               "$type": "Document",
@@ -115,8 +111,7 @@
               "RelativeToolTip": "uni-swap\\Models\\Product.cs",
               "ViewState": "AgIAAFMAAAAAAAAAAAAmwHMAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-30T17:59:58.426Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-30T17:59:58.426Z"
             },
             {
               "$type": "Document",
@@ -128,8 +123,7 @@
               "RelativeToolTip": "uni-swap\\Models\\UserService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-29T18:43:05.607Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-29T18:43:05.607Z"
             }
           ]
         }
