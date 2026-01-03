@@ -14,7 +14,6 @@ namespace uni_swap.Models
         public string Title { get; set; }
         public String Price{ get; set; }
         public string ImageUrl { get; set; }
-        public string ConditionReportUrl { get; set; }
         public string Description { get; set; }
         public int sellerId { get; set;}
         public string CreatedAt {  get; set; }

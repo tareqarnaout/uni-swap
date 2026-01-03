@@ -65,9 +65,7 @@ namespace uni_swap.Pages
             using SqlConnection conn = new SqlConnection(
                 _configuration.GetConnectionString("ConnectionString"));
 
-            string sql = "UPDATE Student 
-                          SET FirstName=@FirstName, LastName=@LastName 
-                          WHERE Email=@Email";
+            string sql = "UPDATE Student  SET FirstName=@FirstName, LastName=@LastName WHERE Email=@Email";
 
             using SqlCommand cmd = new SqlCommand(sql, conn);
             cmd.Parameters.AddWithValue("@FirstName", FirstName);

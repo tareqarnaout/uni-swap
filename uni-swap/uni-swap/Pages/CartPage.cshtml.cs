@@ -13,9 +13,16 @@ namespace uni_swap.Pages
         {
             this.configuration = configuration;
         }
-        public void OnGet()
+        public IActionResult OnGet()
         {
+            int? loggedIn = HttpContext.Session.GetInt32("Login");
+            if (loggedIn == null || loggedIn != 1)
+            {
+                return RedirectToPage("./Login");
+            }
+
             products = Product.getCart(HttpContext.Session.GetString("Email"), configuration);
+            return Page();
         }
         public void OnPost()
         {

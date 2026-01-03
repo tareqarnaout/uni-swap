@@ -3,33 +3,42 @@
 
 <h2>Sell a New Item</h2>
 
-<form method="post" class="w-50">
+<form method="post" enctype="multipart/form-data" class="w-50">
 
     <div class="mb-3">
         <label class="form-label">Item Name</label>
-        <input asp-for="Item.Name" class="form-control" />
-        <span asp-validation-for="Item.Name" class="text-danger"></span>
+        <input asp-for="Title" class="form-control" />
+        <span asp-validation-for="Title" class="text-danger"></span>
     </div>
 
     <div class="mb-3">
         <label class="form-label">Price</label>
-        <input asp-for="Item.Price" class="form-control" />
-        <span asp-validation-for="Item.Price" class="text-danger"></span>
+        <input asp-for="Price" class="form-control" />
+        <span asp-validation-for="Price" class="text-danger"></span>
     </div>
 
     <div class="mb-3">
-        <label class="form-label">Image URL</label>
-        <input asp-for="Item.ImageUrl" class="form-control" />
+        <label class="form-label">Description</label>
+        <textarea asp-for="Description" class="form-control" rows="4"></textarea>
+        <span asp-validation-for="Description" class="text-danger"></span>
     </div>
+
+    <div class="mb-3">
+        <label class="form-label">Product Image</label>
+        <input asp-for="ImageFile" type="file" class="form-control" accept="image/*" />
+        <span asp-validation-for="ImageFile" class="text-danger"></span>
+    </div>
+
+   
 
     <button type="submit" class="btn btn-primary">Publish Item</button>
 
 </form>
 
-@if (Model.Success)
+@if (TempData["Message"] != null)
 {
     <div class="alert alert-success mt-3">
-        Item added successfully!
+        @TempData["Message"]
     </div>
 }
 @section Scripts {
