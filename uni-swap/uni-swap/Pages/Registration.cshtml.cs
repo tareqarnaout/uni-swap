@@ -15,7 +15,7 @@ namespace uni_swap.Pages
             RegisterUser student = new RegisterUser(firstName: Request.Form["FirstName"], lastName: Request.Form["LastName"], email: Request.Form["Email"], password: Request.Form["Password"]);
 
             student.CreateUser();
-            
+            RedirectToPage("./Login");
         }
     }
 }

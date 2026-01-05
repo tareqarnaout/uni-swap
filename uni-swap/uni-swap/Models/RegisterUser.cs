@@ -30,7 +30,7 @@ namespace uni_swap.Models
             string connectionString = "Data Source=localhost;Initial Catalog=uni-swap;Persist Security Info=True;User ID=sa;Password=root1;Encrypt=True;Trust Server Certificate=True";
             PasswordHasher<string> pw = new PasswordHasher<string>();
 
-            string sql = "INSERT INTO STUDENT (FirstName, LastName, Email, PasswordHash)  VALUES (@FirstName, @LastName, @Email, @PasswordHash)";
+            string sql = "INSERT INTO STUDENT (FirstName, LastName, Email,PasswordHash,Role)  VALUES (@FirstName, @LastName, @Email, @PasswordHash, @Role)";
             
 
             using (SqlConnection conn = new SqlConnection(connectionString))
@@ -43,6 +43,7 @@ namespace uni_swap.Models
                     cmd.Parameters.AddWithValue("@LastName", LastName);
                     cmd.Parameters.AddWithValue("@Email", Email);
                     cmd.Parameters.AddWithValue("@PasswordHash", pw.HashPassword(FirstName, Password));
+                    cmd.Parameters.AddWithValue("@Role", "Student");
                     cmd.ExecuteNonQuery();
                 }
             }

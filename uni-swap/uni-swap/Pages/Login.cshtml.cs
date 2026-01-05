@@ -30,17 +30,28 @@ namespace uni_swap.Pages
         public void OnPost()
         {
 
-            bool loggedIn = false;
+            
             if (userService.ValidateUser(Email,Password))
             {
-                loggedIn = true;
-                HttpContext.Session.SetInt32("Login", 1);
-                HttpContext.Session.SetString("Email", Email);
-                Response.Redirect("./HomePage");
+                if (userService.IsAdmin(Email))
+                {
+                    HttpContext.Session.SetInt32("Login", 1);
+                    HttpContext.Session.SetString("Email", Email);
+                    HttpContext.Session.SetString("Role", "Admin");
+                    Response.Redirect("./AdminPage");
+                }
+                else
+                {
+                    HttpContext.Session.SetInt32("Login", 1);
+                    HttpContext.Session.SetString("Email", Email);
+                    HttpContext.Session.SetString("Role", "Student");
+                    Response.Redirect("./HomePage");
+                }
+               
             }
             else
             {
-                loggedIn = false;
+                
                 HttpContext.Session.SetInt32("Login", 0);
                 HttpContext.Session.SetString("Email", "");
                 Response.Redirect("./Login");

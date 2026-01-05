@@ -1,0 +1,301 @@
+﻿@page
+@model uni_swap.Pages.AdminPageModel
+@{
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UniSwap - Admin Dashboard</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: #f8f9fa;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .navbar-brand {
+            font-weight: 600;
+            color: #0d6efd !important;
+            font-size: 1.5rem;
+        }
+
+        .nav-link {
+            color: #555;
+            font-weight: 500;
+        }
+
+            .nav-link.active-link {
+                color: #0d6efd !important;
+            }
+
+        .stat-card {
+            border: none;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.03);
+            transition: transform 0.2s;
+        }
+
+            .stat-card:hover {
+                transform: translateY(-3px);
+            }
+
+        .icon-box {
+            font-size: 1.2rem;
+            color: #6c757d;
+        }
+
+        .table-container {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.03);
+            padding: 20px;
+        }
+
+        .badge-soft-success {
+            background-color: #d1e7dd;
+            color: #0f5132;
+        }
+
+        .badge-soft-danger {
+            background-color: #f8d7da;
+            color: #842029;
+        }
+
+        .badge-soft-warning {
+            background-color: #fff3cd;
+            color: #664d03;
+        }
+
+        .search-input {
+            border-radius: 8px;
+            border: 1px solid #dee2e6;
+            background-color: #fff;
+        }
+
+        .section-tabs {
+            border-bottom: 2px solid #dee2e6;
+            margin-bottom: 2rem;
+        }
+
+        .section-tab {
+            padding: 0.75rem 1.5rem;
+            border: none;
+            background: none;
+            color: #6c757d;
+            font-weight: 500;
+            border-bottom: 3px solid transparent;
+            transition: all 0.3s;
+        }
+
+        .section-tab.active {
+            color: #0d6efd;
+            border-bottom-color: #0d6efd;
+        }
+    </style>
+</head>
+<body>
+
+    
+
+    <main class="container py-5">
+
+        <div class="mb-4">
+            <h2 class="fw-bold text-dark">Admin Dashboard</h2>
+            <p class="text-muted">Manage marketplace listings and orders</p>
+        </div>
+
+        <div class="row g-4 mb-5">
+            <div class="col-md-3">
+                <div class="card stat-card p-3 h-100">
+                    <div class="d-flex justify-content-between align-items-start">
+                        <div>
+                            <p class="text-muted small mb-1">Total Listings</p>
+                            <h3 class="fw-bold mb-0">@Model.Products.Count</h3>
+                        </div>
+                        <i class="fas fa-cubes icon-box"></i>
+                    </div>
+                </div>
+            </div>
+            
+            
+            
+        </div>
+
+        <!-- Section Tabs -->
+        <div class="section-tabs mb-4">
+            <button class="section-tab active" onclick="showSection('products')">
+                <i class="fas fa-box me-2"></i>Products
+            </button>
+            <button class="section-tab" onclick="showSection('orders')">
+                <i class="fas fa-receipt me-2"></i>Orders
+            </button>
+        </div>
+
+        <!-- Products Section -->
+        <div id="products-section">
+           
+
+            <div class="table-container">
+                <div class="table-responsive">
+                    <table class="table table-hover align-middle mb-0">
+                        <thead class="bg-light">
+                            <tr class="text-muted small text-uppercase">
+                                <th scope="col" class="ps-3">ID</th>
+                                <th scope="col">Item Name</th>
+                                <th scope="col">Price</th>
+                                <th scope="col">Posted By</th>
+                                <th scope="col">Date</th>
+                                <th scope="col" class="text-end pe-3">Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach(var product in Model.Products)
+                            {
+                                <tr>
+                                    <td class="ps-3 fw-bold text-muted">@product.Id</td>
+                                    <td class="fw-bold text-dark">@product.Title</td>
+                                    <td>$@product.Price</td>
+                                    <td>@product.sellerName</td>
+                                    <td class="text-muted small">@product.CreatedAt</td>
+                                    <td class="text-end pe-3">
+                                        <form method="post" asp-page-handler="DeleteProduct" style="display: inline;" onsubmit="return confirm('Are you sure you want to delete this product?');">
+                                            <input type="hidden" name="productId" value="@product.Id" />
+                                            <button type="submit" class="btn btn-link text-danger p-0" title="Delete Product">
+                                                <i class="far fa-trash-alt"></i>
+                                            </button>
+                                        </form>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!-- Orders Section -->
+        <div id="orders-section" style="display: none;">
+            <div class="row mb-3 align-items-center">
+                <div class="col-md-9 mb-2 mb-md-0">
+                    <div class="input-group">
+                        <span class="input-group-text bg-white border-end-0"><i class="fas fa-search text-muted"></i></span>
+                        <input type="text" class="form-control border-start-0 ps-0" placeholder="Search by order ID or customer...">
+                    </div>
+                </div>
+            </div>
+
+            <div class="table-container">
+                <div class="table-responsive">
+                    <table class="table table-hover align-middle mb-0">
+                        <thead class="bg-light">
+                            <tr class="text-muted small text-uppercase">
+                                <th scope="col" class="ps-3">Order ID</th>
+                                <th scope="col">Products</th>
+                                <th scope="col">Total</th>
+                                <th scope="col">Date</th>
+                                <th scope="col">Status</th>
+                                <th scope="col" class="text-end pe-3">Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @if (Model.Orders.Count == 0)
+                            {
+                                <tr>
+                                    <td colspan="6" class="text-center text-muted py-4">No orders found</td>
+                                </tr>
+                            }
+                            else
+                            {
+                                @foreach(var order in Model.Orders)
+                                {
+                                    <tr>
+                                        <td class="ps-3 fw-bold text-muted">#@order.OrderId</td>
+                                        <td>
+                                            @if (order.Products.Any())
+                                            {
+                                                <div>
+                                                    @foreach(var product in order.Products.Take(2))
+                                                    {
+                                                        <div class="small">@product.Title</div>
+                                                    }
+                                                    @if (order.Products.Count > 2)
+                                                    {
+                                                        <small class="text-muted">+@(order.Products.Count - 2) more</small>
+                                                    }
+                                                </div>
+                                            }
+                                            else
+                                            {
+                                                <span class="text-muted small">No products</span>
+                                            }
+                                        </td>
+                                        <td class="fw-bold">$@order.TotalAmount.ToString("N2")</td>
+                                        <td class="text-muted small">@order.OrderDate.ToString("MM/dd/yyyy")</td>
+                                        <td>
+                                            @if (order.Status == "Pending")
+                                            {
+                                                <span class="badge badge-soft-warning">@order.Status</span>
+                                            }
+                                            else if (order.Status == "Completed")
+                                            {
+                                                <span class="badge badge-soft-success">@order.Status</span>
+                                            }
+                                            else if (order.Status == "Cancelled")
+                                            {
+                                                <span class="badge badge-soft-danger">@order.Status</span>
+                                            }
+                                            else
+                                            {
+                                                <span class="badge bg-secondary">@order.Status</span>
+                                            }
+                                        </td>
+                                        <td class="text-end pe-3">
+                                            <form method="post" asp-page-handler="DeleteOrder" style="display: inline;" onsubmit="return confirm('Are you sure you want to delete order #@order.OrderId?');">
+                                                <input type="hidden" name="orderId" value="@order.OrderId" />
+                                                <button type="submit" class="btn btn-link text-danger p-0" title="Delete Order">
+                                                    <i class="far fa-trash-alt"></i>
+                                                </button>
+                                            </form>
+                                        </td>
+                                    </tr>
+                                }
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        function showSection(section) {
+            // Hide all sections
+            document.getElementById('products-section').style.display = 'none';
+            document.getElementById('orders-section').style.display = 'none';
+
+            // Remove active class from all tabs
+            document.querySelectorAll('.section-tab').forEach(tab => {
+                tab.classList.remove('active');
+            });
+
+            // Show selected section
+            if (section === 'products') {
+                document.getElementById('products-section').style.display = 'block';
+                document.querySelectorAll('.section-tab')[0].classList.add('active');
+            } else if (section === 'orders') {
+                document.getElementById('orders-section').style.display = 'block';
+                document.querySelectorAll('.section-tab')[1].classList.add('active');
+            }
+        }
+    </script>
+</body>
+</html>

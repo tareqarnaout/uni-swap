@@ -88,14 +88,7 @@
 
         <div class="row mb-5 mt-4">
             <div class="col-12">
-                <div class="search-container">
-                    <div class="input-group shadow-sm">
-                        <span class="input-group-text search-icon-group text-muted ps-3">
-                            <i class="bi bi-search"></i>
-                        </span>
-                        <input type="text" class="form-control search-input" placeholder="Search for textbooks, dorm supplies...">
-                    </div>
-                </div>
+                
             </div>
         </div>
 
@@ -110,9 +103,9 @@
                         <div class="card-body">
                             
                             <h5 class="card-title fs-6 fw-bold">@product.Title</h5>
-                            <p class="card-text price-tag mb-1">@product.Price</p>
+                            <p class="card-text price-tag mb-1">@product.Price JOD</p>
                             <p class="product-description">@product.Description</p>
-                            <p class="seller-info mb-0">@product.sellerId</p>
+                            <p class="seller-info mb-0">@product.sellerName</p>
                             <br>
                             <form method="post" asp-page-handler="AddProduct">
                                 <input type="hidden" name="productId" value="@product.Id">
@@ -123,60 +116,7 @@
                 </div>
             }
 
-            @* <div class="col">
-                <div class="card product-card h-100">
-                    <img src="https://images.unsplash.com/photo-1517080315817-48651c618b13?auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="Coffee Maker">
-                    <div class="card-body">
-                        <h5 class="card-title fs-6 fw-bold">Mini Coffee Maker</h5>
-                        <p class="card-text price-tag mb-1">$20</p>
-                        <p class="seller-info mb-0">Sarah Smith</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col">
-                <div class="card product-card h-100">
-                    <img src="https://images.unsplash.com/photo-1533241249764-70db6d735165?auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="Lamp">
-                    <div class="card-body">
-                        <h5 class="card-title fs-6 fw-bold">Modern Desk Lamp</h5>
-                        <p class="card-text price-tag mb-1">$15</p>
-                        <p class="seller-info mb-0">Mike Johnson</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col">
-                <div class="card product-card h-100">
-                    <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca4?auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="Laptop">
-                    <div class="card-body">
-                        <h5 class="card-title fs-6 fw-bold">MacBook Pro 2019</h5>
-                        <p class="card-text price-tag mb-1">$650</p>
-                        <p class="seller-info mb-0">Emily White</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col">
-                <div class="card product-card h-100">
-                    <img src="https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="Backpack">
-                    <div class="card-body">
-                        <h5 class="card-title fs-6 fw-bold">Black Backpack (Like New)</h5>
-                        <p class="card-text price-tag mb-1">$30</p>
-                        <p class="seller-info mb-0">Chris Lee</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col">
-                <div class="card product-card h-100">
-                    <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="Notes">
-                    <div class="card-body">
-                        <h5 class="card-title fs-6 fw-bold">Engineering Notes Bundle</h5>
-                        <p class="card-text price-tag mb-1">Free</p>
-                        <p class="seller-info mb-0">Alex Brown</p>
-                    </div>
-                </div>
-            </div> *@
+            
 
         </div>
     </div>

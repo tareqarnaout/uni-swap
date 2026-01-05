@@ -16,6 +16,7 @@ namespace uni_swap.Models
         public string ImageUrl { get; set; }
         public string Description { get; set; }
         public int sellerId { get; set;}
+        public string sellerName { get; set; }
         public string CreatedAt {  get; set; }
 
 
@@ -23,6 +24,7 @@ namespace uni_swap.Models
         {
             List<Product> products = new List<Product>();
             string sql = "select * from Products";
+
             using (SqlConnection con = new SqlConnection(_configuration.GetConnectionString("connectionString")))
             {
 
@@ -42,6 +44,22 @@ namespace uni_swap.Models
                             temp.sellerId = (int)dr["sellerId"];
                             temp.CreatedAt = dr["CreatedAt"].ToString();
                             temp.Description = dr["Description"].ToString();
+
+                            string UserSql = "select firstname, lastName from student where userid = @userid ";
+                           
+                            using (SqlConnection getUserName = new SqlConnection(_configuration.GetConnectionString("connectionString")))
+                            {
+                                using (SqlCommand getUserNameCmd = new SqlCommand(UserSql, getUserName))
+                                {
+                                    getUserNameCmd.Parameters.AddWithValue("@userid", temp.sellerId);
+                                    getUserName.Open();
+                                    SqlDataReader name = getUserNameCmd.ExecuteReader();
+                                    while (name.Read())
+                                    {
+                                        temp.sellerName = name["FirstName"].ToString() + " "+ name["LastName"].ToString();
+                                    }
+                                }
+                            }
                             products.Add(temp);
                          
                         }

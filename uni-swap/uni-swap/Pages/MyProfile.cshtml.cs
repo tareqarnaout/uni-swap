@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Data.SqlClient;
 using System.ComponentModel.DataAnnotations;
+using uni_swap.Models;
 
 namespace uni_swap.Pages
 {
@@ -27,6 +28,8 @@ namespace uni_swap.Pages
         [BindProperty]
         public string Email { get; set; }
 
+        public List<Order> Orders { get; set; } = new List<Order>();
+
         public IActionResult OnGet()
         {
             var email = HttpContext.Session.GetString("Email");
@@ -49,6 +52,11 @@ namespace uni_swap.Pages
                 LastName = reader["LastName"].ToString();
                 Email = reader["Email"].ToString();
             }
+
+            conn.Close();
+
+            
+            Orders = Order.GetUserOrders(email, _configuration);
 
             return Page();
         }

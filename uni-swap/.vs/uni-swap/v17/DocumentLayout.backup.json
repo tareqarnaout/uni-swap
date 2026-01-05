@@ -3,48 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Documents\\GitHub\\uni-swap\\uni-swap\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BA864975-FE89-421D-AA1A-754590890D6B}|uni-swap\\uni-swap.csproj|c:\\users\\user\\documents\\github\\uni-swap\\uni-swap\\uni-swap\\pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BA864975-FE89-421D-AA1A-754590890D6B}|uni-swap\\uni-swap.csproj|solutionrelative:uni-swap\\pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{BA864975-FE89-421D-AA1A-754590890D6B}|uni-swap\\uni-swap.csproj|c:\\users\\user\\documents\\github\\uni-swap\\uni-swap\\uni-swap\\pages\\adminpage.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA864975-FE89-421D-AA1A-754590890D6B}|uni-swap\\uni-swap.csproj|solutionrelative:uni-swap\\pages\\adminpage.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA864975-FE89-421D-AA1A-754590890D6B}|uni-swap\\uni-swap.csproj|c:\\users\\user\\documents\\github\\uni-swap\\uni-swap\\uni-swap\\pages\\myprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BA864975-FE89-421D-AA1A-754590890D6B}|uni-swap\\uni-swap.csproj|solutionrelative:uni-swap\\pages\\myprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{BA864975-FE89-421D-AA1A-754590890D6B}|uni-swap\\uni-swap.csproj|c:\\users\\user\\documents\\github\\uni-swap\\uni-swap\\uni-swap\\pages\\adminpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA864975-FE89-421D-AA1A-754590890D6B}|uni-swap\\uni-swap.csproj|solutionrelative:uni-swap\\pages\\adminpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA864975-FE89-421D-AA1A-754590890D6B}|uni-swap\\uni-swap.csproj|c:\\users\\user\\documents\\github\\uni-swap\\uni-swap\\uni-swap\\pages\\cartpage.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA864975-FE89-421D-AA1A-754590890D6B}|uni-swap\\uni-swap.csproj|solutionrelative:uni-swap\\pages\\cartpage.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BA864975-FE89-421D-AA1A-754590890D6B}|uni-swap\\uni-swap.csproj|c:\\users\\user\\documents\\github\\uni-swap\\uni-swap\\uni-swap\\pages\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA864975-FE89-421D-AA1A-754590890D6B}|uni-swap\\uni-swap.csproj|solutionrelative:uni-swap\\pages\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA864975-FE89-421D-AA1A-754590890D6B}|uni-swap\\uni-swap.csproj|c:\\users\\user\\documents\\github\\uni-swap\\uni-swap\\uni-swap\\models\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA864975-FE89-421D-AA1A-754590890D6B}|uni-swap\\uni-swap.csproj|solutionrelative:uni-swap\\models\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BA864975-FE89-421D-AA1A-754590890D6B}|uni-swap\\uni-swap.csproj|c:\\users\\user\\documents\\github\\uni-swap\\uni-swap\\uni-swap\\pages\\homepage.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BA864975-FE89-421D-AA1A-754590890D6B}|uni-swap\\uni-swap.csproj|solutionrelative:uni-swap\\pages\\homepage.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA864975-FE89-421D-AA1A-754590890D6B}|uni-swap\\uni-swap.csproj|c:\\users\\user\\documents\\github\\uni-swap\\uni-swap\\uni-swap\\pages\\cartpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BA864975-FE89-421D-AA1A-754590890D6B}|uni-swap\\uni-swap.csproj|solutionrelative:uni-swap\\pages\\cartpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA864975-FE89-421D-AA1A-754590890D6B}|uni-swap\\uni-swap.csproj|c:\\users\\user\\documents\\github\\uni-swap\\uni-swap\\uni-swap\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA864975-FE89-421D-AA1A-754590890D6B}|uni-swap\\uni-swap.csproj|solutionrelative:uni-swap\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA864975-FE89-421D-AA1A-754590890D6B}|uni-swap\\uni-swap.csproj|c:\\users\\user\\documents\\github\\uni-swap\\uni-swap\\uni-swap\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BA864975-FE89-421D-AA1A-754590890D6B}|uni-swap\\uni-swap.csproj|solutionrelative:uni-swap\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA864975-FE89-421D-AA1A-754590890D6B}|uni-swap\\uni-swap.csproj|c:\\users\\user\\documents\\github\\uni-swap\\uni-swap\\uni-swap\\pages\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA864975-FE89-421D-AA1A-754590890D6B}|uni-swap\\uni-swap.csproj|solutionrelative:uni-swap\\pages\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA864975-FE89-421D-AA1A-754590890D6B}|uni-swap\\uni-swap.csproj|c:\\users\\user\\documents\\github\\uni-swap\\uni-swap\\uni-swap\\pages\\sellitem.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA864975-FE89-421D-AA1A-754590890D6B}|uni-swap\\uni-swap.csproj|solutionrelative:uni-swap\\pages\\sellitem.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA864975-FE89-421D-AA1A-754590890D6B}|uni-swap\\uni-swap.csproj|c:\\users\\user\\documents\\github\\uni-swap\\uni-swap\\uni-swap\\pages\\sellitem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BA864975-FE89-421D-AA1A-754590890D6B}|uni-swap\\uni-swap.csproj|solutionrelative:uni-swap\\pages\\sellitem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA864975-FE89-421D-AA1A-754590890D6B}|uni-swap\\uni-swap.csproj|c:\\users\\user\\documents\\github\\uni-swap\\uni-swap\\uni-swap\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA864975-FE89-421D-AA1A-754590890D6B}|uni-swap\\uni-swap.csproj|solutionrelative:uni-swap\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BA864975-FE89-421D-AA1A-754590890D6B}|uni-swap\\uni-swap.csproj|c:\\users\\user\\documents\\github\\uni-swap\\uni-swap\\uni-swap\\models\\registeruser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA864975-FE89-421D-AA1A-754590890D6B}|uni-swap\\uni-swap.csproj|solutionrelative:uni-swap\\models\\registeruser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,149 +34,83 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\uni-swap\\uni-swap\\uni-swap\\Pages\\Login.cshtml",
-              "RelativeDocumentMoniker": "uni-swap\\Pages\\Login.cshtml",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\uni-swap\\uni-swap\\uni-swap\\Pages\\Login.cshtml*",
-              "RelativeToolTip": "uni-swap\\Pages\\Login.cshtml*",
-              "ViewState": "AgIAAFwAAAAAAAAAAAAAAHsAAABoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-03T16:11:32.676Z",
-              "EditorCaption": ""
+              "DocumentIndex": 5,
+              "Title": "RegisterUser.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\uni-swap\\uni-swap\\uni-swap\\Models\\RegisterUser.cs",
+              "RelativeDocumentMoniker": "uni-swap\\Models\\RegisterUser.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\uni-swap\\uni-swap\\uni-swap\\Models\\RegisterUser.cs",
+              "RelativeToolTip": "uni-swap\\Models\\RegisterUser.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAqwCoAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-04T16:33:26.784Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MyProfile.cshtml",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\uni-swap\\uni-swap\\uni-swap\\Pages\\MyProfile.cshtml",
-              "RelativeDocumentMoniker": "uni-swap\\Pages\\MyProfile.cshtml",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\uni-swap\\uni-swap\\uni-swap\\Pages\\MyProfile.cshtml",
-              "RelativeToolTip": "uni-swap\\Pages\\MyProfile.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-03T16:09:39.334Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "HomePage.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\uni-swap\\uni-swap\\uni-swap\\Pages\\HomePage.cshtml.cs",
               "RelativeDocumentMoniker": "uni-swap\\Pages\\HomePage.cshtml.cs",
               "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\uni-swap\\uni-swap\\uni-swap\\Pages\\HomePage.cshtml.cs",
               "RelativeToolTip": "uni-swap\\Pages\\HomePage.cshtml.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAsAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T16:05:01.734Z",
+              "WhenOpened": "2026-01-04T15:59:46.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdminPage.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\uni-swap\\uni-swap\\uni-swap\\Pages\\AdminPage.cshtml.cs",
+              "RelativeDocumentMoniker": "uni-swap\\Pages\\AdminPage.cshtml.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\uni-swap\\uni-swap\\uni-swap\\Pages\\AdminPage.cshtml.cs*",
+              "RelativeToolTip": "uni-swap\\Pages\\AdminPage.cshtml.cs*",
+              "ViewState": "AgIAAHkAAAAAAAAAAAAQwCIAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-04T16:03:07.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdminPage.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\uni-swap\\uni-swap\\uni-swap\\Pages\\AdminPage.cshtml",
+              "RelativeDocumentMoniker": "uni-swap\\Pages\\AdminPage.cshtml",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\uni-swap\\uni-swap\\uni-swap\\Pages\\AdminPage.cshtml",
+              "RelativeToolTip": "uni-swap\\Pages\\AdminPage.cshtml",
+              "ViewState": "AgIAAL0AAAAAAAAAAAAAAMkAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-04T16:02:46.389Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "CartPage.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\uni-swap\\uni-swap\\uni-swap\\Pages\\CartPage.cshtml.cs",
-              "RelativeDocumentMoniker": "uni-swap\\Pages\\CartPage.cshtml.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\uni-swap\\uni-swap\\uni-swap\\Pages\\CartPage.cshtml.cs",
-              "RelativeToolTip": "uni-swap\\Pages\\CartPage.cshtml.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAAaAAAAAAAAAA==",
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\uni-swap\\uni-swap\\uni-swap\\Pages\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "uni-swap\\Pages\\Login.cshtml.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\uni-swap\\uni-swap\\uni-swap\\Pages\\Login.cshtml.cs",
+              "RelativeToolTip": "uni-swap\\Pages\\Login.cshtml.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAA5wCcAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T16:04:42.711Z",
+              "WhenOpened": "2026-01-04T15:18:23.321Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CartPage.cshtml",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\uni-swap\\uni-swap\\uni-swap\\Pages\\CartPage.cshtml",
-              "RelativeDocumentMoniker": "uni-swap\\Pages\\CartPage.cshtml",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\uni-swap\\uni-swap\\uni-swap\\Pages\\CartPage.cshtml",
-              "RelativeToolTip": "uni-swap\\Pages\\CartPage.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEgAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-03T16:04:40.943Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Logout.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\uni-swap\\uni-swap\\uni-swap\\Pages\\Logout.cshtml.cs",
-              "RelativeDocumentMoniker": "uni-swap\\Pages\\Logout.cshtml.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\uni-swap\\uni-swap\\uni-swap\\Pages\\Logout.cshtml.cs",
-              "RelativeToolTip": "uni-swap\\Pages\\Logout.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\uni-swap\\uni-swap\\uni-swap\\Models\\UserService.cs",
+              "RelativeDocumentMoniker": "uni-swap\\Models\\UserService.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\uni-swap\\uni-swap\\uni-swap\\Models\\UserService.cs",
+              "RelativeToolTip": "uni-swap\\Models\\UserService.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAgwA8AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T16:01:09.635Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\uni-swap\\uni-swap\\uni-swap\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "uni-swap\\Pages\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\uni-swap\\uni-swap\\uni-swap\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "uni-swap\\Pages\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAABIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-03T15:59:37.467Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\uni-swap\\uni-swap\\uni-swap\\Program.cs",
-              "RelativeDocumentMoniker": "uni-swap\\Program.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\uni-swap\\uni-swap\\uni-swap\\Program.cs",
-              "RelativeToolTip": "uni-swap\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T15:48:26.26Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "SellItem.cshtml",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\uni-swap\\uni-swap\\uni-swap\\Pages\\SellItem.cshtml",
-              "RelativeDocumentMoniker": "uni-swap\\Pages\\SellItem.cshtml",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\uni-swap\\uni-swap\\uni-swap\\Pages\\SellItem.cshtml",
-              "RelativeToolTip": "uni-swap\\Pages\\SellItem.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-03T15:34:35.216Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\uni-swap\\uni-swap\\uni-swap\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "uni-swap\\Models\\Product.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\uni-swap\\uni-swap\\uni-swap\\Models\\Product.cs",
-              "RelativeToolTip": "uni-swap\\Models\\Product.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAD4v0kAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T15:34:38.619Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "SellItem.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\uni-swap\\uni-swap\\uni-swap\\Pages\\SellItem.cshtml.cs",
-              "RelativeDocumentMoniker": "uni-swap\\Pages\\SellItem.cshtml.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\uni-swap\\uni-swap\\uni-swap\\Pages\\SellItem.cshtml.cs",
-              "RelativeToolTip": "uni-swap\\Pages\\SellItem.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGoAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T15:34:33.721Z",
+              "WhenOpened": "2026-01-04T15:11:31.566Z",
               "EditorCaption": ""
             }
           ]

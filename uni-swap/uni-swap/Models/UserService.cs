@@ -5,6 +5,7 @@ namespace uni_swap.Models
 {
     public class UserService
     {
+        
         private readonly IConfiguration _configuration ;
         public UserService(IConfiguration configuration)
         {
@@ -40,7 +41,40 @@ namespace uni_swap.Models
             if (verificationResult == PasswordVerificationResult.Success)
                 return true;
             else
+            {
+                Console.WriteLine("wrong pass");
                 return false;
+            }
+                
+        }
+        public bool IsAdmin(string Email)
+        {
+            string sql = "SELECT Role from Student where email = @Email";
+            SqlDataReader dataReader = null;
+
+            using (SqlConnection conn = new SqlConnection(_configuration.GetConnectionString("connectionString")))
+            {
+                using (SqlCommand cmd = new SqlCommand(sql, conn))
+                {
+                    cmd.Parameters.AddWithValue("@Email", Email);
+                    conn.Open();
+
+                    dataReader = cmd.ExecuteReader();
+
+                    if (dataReader != null)
+                    {
+                        while (dataReader.Read())
+                        {
+                            if (dataReader["Role"].ToString() == "Admin")
+                                return true;
+
+                            
+                        }
+                    }
+                }
+            }
+            Console.WriteLine("not admin");
+            return false;
         }
 
     }

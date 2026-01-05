@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("uni-swap")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+199d29aaa1d313c978609dbd642e83a90ecf9624")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e4d7da9d5b6049c81cf520562ef17e4b4315038b")]
 [assembly: System.Reflection.AssemblyProductAttribute("uni-swap")]
 [assembly: System.Reflection.AssemblyTitleAttribute("uni-swap")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
